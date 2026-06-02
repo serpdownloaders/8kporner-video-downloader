@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/8kporner-downloader",
+  "serply_link": "https://serp.ly/8kporner-downloader",
+  "app_name": "8kporner Video Downloader",
+  "short_description": "Download & Save 8kporner Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Downloader for 8K Porner is a browser extension that helps you detect and save playable videos from 8kporner.com. Open a supported video page, let the player expose available media, then use the extension workflow to detect and save the available stream through your browser. No command-line tools, no page-source hunting — just a clean browser workflow.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/8kporner-downloader-fullscreen-01-45b7922424.webp",
+    "https://apps.serp.co/media/optimized-products/8kporner-downloader-fullscreen-02-34465b2430.webp",
+    "https://apps.serp.co/media/optimized-products/8kporner-downloader-fullscreen-03-47e5841ce0.webp",
+    "https://apps.serp.co/media/optimized-products/8kporner-downloader-fullscreen-04-5d9d148c4c.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download an 8K Porner video?",
+      "answer": "Open a supported 8K Porner video page, start playback if needed, then use the extension workflow to detect and save an available media candidate."
+    },
+    {
+      "question": "Does this guarantee 8K quality?",
+      "answer": "No. The site name includes 8K, but the extension can only save what the page exposes. If the source does not provide an 8K stream, the extension cannot create one."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension is configured for direct video sources and HLS candidates exposed through video tags, Open Graph video metadata, and Twitter player stream metadata."
+    },
+    {
+      "question": "Where are files saved?",
+      "answer": "The extension saves downloads to an 8K Porner folder for easy organization."
+    },
+    {
+      "question": "Is this extension free?",
+      "answer": "You get 3 free downloads to test the workflow. Unlimited downloads require a paid license."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "MV3 permissions for downloads, active tab access, storage, notifications, context menus, tabs, scripting, offscreen processing, and declarative net request rules"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Purpose-built identity for 8K Porner video pages",
+    "Supports 8kporner.com and subdomain match rules",
+    "Detects video candidates from configured metadata selectors",
+    "Handles direct video and HLS candidates when exposed by the page",
+    "Adds a player-level workflow around the configured player wrapper",
+    "Uses offscreen HLS processing with concat mode",
+    "Saves to an organized 8K Porner folder",
+    "Avoids claiming guaranteed 8K output; available quality is source-dependent",
+    "Site-specific support for 8kporner.com and 8K Porner subdomains",
+    "In-page player-button targeting the configured player wrapper",
+    "Video detection from video tags, Open Graph video metadata, and Twitter player stream metadata",
+    "Thumbnail detection from Open Graph image metadata and video poster attributes",
+    "HLS concat and offscreen completion settings with origin and referer defaults",
+    "Downloads organized under an 8K Porner folder",
+    "MV3 permissions for downloads, active tab access, storage, notifications, context menus, tabs, scripting, offscreen processing, and declarative net request rules",
+    "30-second stall timeout for stream processing",
+    "Up to 3 segment retries for HLS handling"
+  ],
+  "content": {
+    "why": [
+      "Video pages on 8K Porner often hide the actual stream behind player markup and scripts. Browser right-click save may not expose the final playable media URL, and generic download methods can require manual inspection of video tags or metadata. This makes offline saving frustrating for viewers who just want to watch later without internet access.",
+      "8kporner Downloader solves this by bringing video detection and saving directly into your browser. It is configured for 8kporner.com and subdomains, reads common title and video selectors, and can handle direct video URLs or HLS-style streams when the page provides them. Instead of copying URLs or using command-line tools, you get a simple button-driven workflow that works with the existing player surface."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open 8kporner.com and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to the latest GitHub release page for 8kporner Downloader.",
+      "Download and install the extension build for your browser.",
+      "Go to 8kporner.com and find a video you want to save.",
+      "Click the video to open its dedicated playback page.",
+      "Press the play button on the player to expose the media stream.",
+      "Click the extension icon in your browser toolbar or use the player button that appears near the video.",
+      "Review the detected formats and select the quality you prefer.",
+      "Click download and wait for the file to save to your 8K Porner folder."
+    ],
+    "supported_formats": [
+      "Input: Direct video URLs and HLS/M3U8 candidates when exposed by the 8K Porner page or player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "8K Porner viewers who want a private browser-based way to save available videos",
+      "Users who prefer a button-driven workflow over technical downloader tools",
+      "People who need offline access to videos without installing separate desktop apps",
+      "Viewers who want downloads organized automatically in a dedicated folder"
+    ],
+    "use_cases": [
+      "Save an available 8K Porner video for offline viewing",
+      "Detect direct video or HLS candidates exposed by the page or player",
+      "Use an in-page player button configured for the 8K Porner player wrapper",
+      "Save media through a browser extension workflow rather than copying URLs manually",
+      "Keep downloads organized under an 8K Porner folder"
+    ],
+    "troubleshooting": [
+      "No video detected on the page. Refresh the page and make sure the video player has loaded fully before opening the extension popup.",
+      "The download button does not appear. Try starting playback first, as some pages only expose the stream after play is pressed.",
+      "The download fails partway through. Check your internet connection and try again. If the issue persists, refresh the page and restart the download.",
+      "The file quality is lower than expected. The extension can only save what the source page provides. If the stream is not high resolution, the output will match the source.",
+      "The extension does not work on a specific video page. Some pages may use custom players that do not expose media through standard selectors. Try another supported video page."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported 8kporner.com page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Quality depends entirely on what the source page exposes",
+      "Start playback if the stream is not detected immediately"
+    ],
+    "about": [
+      "8kporner.com is a video hosting platform featuring adult content with a focus on high-resolution streaming. This extension helps viewers save available videos from the platform for offline viewing through a private browser workflow."
+    ]
+  },
+  "serpx_link": "https://serpx.link/8kporner-downloader",
+  "github_topics": [
+    "8kporner-download",
+    "8kporner-downloader",
+    "8kporner-video-downloader",
+    "8kporner-video-downloader-online",
+    "8kporner-video-downloader-mac",
+    "8kporner-video-downloader-window",
+    "8kporner-video-downloader-free",
+    "8kporner-video-downloader-extension",
+    "8kporner-video-downloader-app",
+    "8kporner-video-downloader-chrome",
+    "8kporner-video-downloader-from-url",
+    "how-to-download-8kporner-videos",
+    "how-to-download-8kporner-videos-mac",
+    "how-to-download-8kporner-videos-windows",
+    "how-to-download-8kporner-videos-online",
+    "how-to-download-8kporner-videos-free",
+    "how-to-download-from-8kporner",
+    "how-to-download-videos-from-8kporner",
+    "download-8kporner-videos",
+    "8kporner-video-tutorial",
+    "save-8kporner-videos",
+    "8kporner-video-content-saver",
+    "how-to-download-8kporner-videos-for-free"
+  ],
+  "hashtags": [
+    "#8kpornerDownload",
+    "#8kpornerDownloader",
+    "#8kpornerVideoDownloader",
+    "#8kpornerVideoDownloaderOnline",
+    "#8kpornerVideoDownloaderMac",
+    "#8kpornerVideoDownloaderWindow",
+    "#8kpornerVideoDownloaderFree",
+    "#8kpornerVideoDownloaderExtension",
+    "#8kpornerVideoDownloaderApp",
+    "#8kpornerVideoDownloaderChrome",
+    "#8kpornerVideoDownloaderFromURL",
+    "#HowToDownload8kpornerVideos",
+    "#HowToDownload8kpornerVideosMac",
+    "#HowToDownload8kpornerVideosWindows",
+    "#HowToDownload8kpornerVideosOnline",
+    "#HowToDownload8kpornerVideosFree",
+    "#HowToDownloadFrom8kporner",
+    "#HowToDownloadVideosFrom8kporner",
+    "#Download8kpornerVideos",
+    "#8kpornerVideoTutorial",
+    "#Save8kpornerVideos",
+    "#8kpornerVideoContentSaver",
+    "#HowToDownload8kpornerVideosForFree"
+  ],
+  "youtube_tags": [
+    "8kporner Download",
+    "8kporner Downloader",
+    "8kporner Video Downloader",
+    "8kporner Video Downloader Online",
+    "8kporner Video Downloader Mac",
+    "8kporner Video Downloader Window",
+    "8kporner Video Downloader Free",
+    "8kporner Video Downloader Extension",
+    "8kporner Video Downloader App",
+    "8kporner Video Downloader Chrome",
+    "8kporner Video Downloader From URL",
+    "How To Download 8kporner Videos",
+    "How To Download 8kporner Videos Mac",
+    "How To Download 8kporner Videos Windows",
+    "How To Download 8kporner Videos Online",
+    "How To Download 8kporner Videos Free",
+    "How To Download From 8kporner",
+    "How To Download Videos From 8kporner",
+    "Download 8kporner Videos",
+    "8kporner Video Tutorial",
+    "Save 8kporner Videos",
+    "8kporner Video Content Saver",
+    "How To Download 8kporner Videos For Free"
+  ]
+}
